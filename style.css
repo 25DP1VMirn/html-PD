@@ -10,6 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
 #link > a{
     text-decoration: none;
@@ -26,15 +27,36 @@ header > div{
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
-#hero > button{
+#shop-but{
     margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 15px;
+    border: 0px;
+    background-color: #bb7e8c;
+}
+#shop-but > a{
+    color: #e6e8e6;
+    font-size: large;
+}
+#shop-but:hover{
+    background-color: #3a6ea5;
 }
 #discount{
     box-shadow: 0px 7px 12px 2px #bb7e8cbe;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    border-radius: 25px;
+}
+.items{
+    display: flex;
+    padding: 10px;
+    border: solid #bb7e8c 2px;
+    margin: 10px;
+    border-radius: 25px;
+    width: max-content;
 }
 .products{
     justify-content: space-around;
@@ -61,14 +83,17 @@ header > div{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
 #new > h2{
     margin-left: 30px;
 }
 #info{
+    padding: 5px;
     padding-left: 30px;
     box-shadow: 0px 7px 12px 2px #bb7e8cbe;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
 footer{
     padding-left: 30px;
@@ -76,6 +101,7 @@ footer{
     box-shadow: 0px 7px 12px 2px #bb7e8cbe;
     display: flex;
     justify-content: space-between;
+    border-radius: 25px;
 }
 button > a{
     text-decoration: none;
@@ -85,5 +111,5 @@ h1, h2, h3{
     color: #553a41;
 }
 .price > h3{
-    text-decoration: line-through 2px red;
+    text-decoration: line-through 2px #3a6ea5;
 }
