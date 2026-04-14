@@ -1,5 +1,6 @@
 body{
-    margin: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #e6e8e6;
     font-family: Verdana, sans-serif;
 }
@@ -11,6 +12,7 @@ header{
     justify-content: space-between;
     margin-bottom: 20px;
     border-radius: 25px;
+    background-color: #e6e8e6;
 }
 #link > a{
     text-decoration: none;
@@ -28,6 +30,8 @@ header > div{
     align-items: center;
     margin-bottom: 20px;
     border-radius: 25px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/033/086/157/small/generative-ai-cloth-store-aesthetic-background-of-clothes-hanging-on-hangers-muted-neutral-colors-photo.jpg);
+    background-position: center;
 }
 #shop-but{
     margin-bottom: 30px;
@@ -35,6 +39,7 @@ header > div{
     padding: 15px;
     border: 0px;
     background-color: #bb7e8c;
+    box-shadow: 0px 7px 12px 2px #553a41;
 }
 #shop-but > a{
     color: #e6e8e6;
@@ -49,10 +54,10 @@ header > div{
     flex-direction: column;
     margin-bottom: 20px;
     border-radius: 25px;
+    background-color: #e6e8e6;
 }
 .items{
     display: flex;
-    padding: 10px;
     border: solid #bb7e8c 2px;
     margin: 10px;
     border-radius: 25px;
@@ -84,6 +89,7 @@ header > div{
     flex-direction: column;
     margin-bottom: 20px;
     border-radius: 25px;
+    background-color: #e6e8e6;
 }
 #new > h2{
     margin-left: 30px;
@@ -94,6 +100,7 @@ header > div{
     box-shadow: 0px 7px 12px 2px #bb7e8cbe;
     margin-bottom: 20px;
     border-radius: 25px;
+    background-color: #e6e8e6;
 }
 footer{
     padding-left: 30px;
@@ -102,6 +109,7 @@ footer{
     display: flex;
     justify-content: space-between;
     border-radius: 25px;
+    background-color: #e6e8e6;
 }
 button > a{
     text-decoration: none;
@@ -111,5 +119,12 @@ h1, h2, h3{
     color: #553a41;
 }
 .price > h3{
-    text-decoration: line-through 2px #3a6ea5;
+    color: #3a6ea562;
+    text-decoration: line-through 2px #553a41;
+}
+img{
+    border-radius: 23px;
+    margin: 0px;
+    width: 200px;
+    height: 230px;
 }
