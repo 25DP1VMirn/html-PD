@@ -5,6 +5,9 @@ body{
     font-family: Verdana, sans-serif;
     color: #553a41;
 }
+h1, h2, h3{
+    color: #553a41;
+}
 header{
     box-shadow: 0px 7px 12px 1px #bb7e8c8f;
     padding-left: 50px;
@@ -20,7 +23,11 @@ header{
 
 #link > a{
     text-decoration: none;
-    color: #553a41;
+    color: #74102a;
+}
+#link > a > h3:hover{
+    color: #3a6ea5;
+    transition: 0.2s;
 }
 header > div{
     display: flex;
@@ -139,9 +146,7 @@ button > a{
     text-decoration: none;
     color: #553a41;
 }
-h1, h2, h3{
-    color: #553a41;
-}
+
 .price > h3{
     color: #3a6ea562;
     text-decoration: line-through 2px #553a4182;
