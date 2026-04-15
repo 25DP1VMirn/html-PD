@@ -3,17 +3,21 @@ body{
     margin-right: 15%;
     background-color: #e6e8e6;
     font-family: Verdana, sans-serif;
+    color: #553a41;
 }
 header{
     box-shadow: 0px 7px 12px 1px #bb7e8c8f;
     padding-left: 50px;
     padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     border-radius: 25px;
     background-color: #e6e8e6;
 }
+
 #link > a{
     text-decoration: none;
     color: #553a41;
@@ -40,6 +44,8 @@ header > div{
     border: 0px;
     background-color: #bb7e8c;
     box-shadow: 0px 7px 12px 2px #553a41;
+    transition: 0.2s;
+    cursor: pointer;
 }
 #shop-but > a{
     color: #e6e8e6;
@@ -47,6 +53,9 @@ header > div{
 }
 #shop-but:hover{
     background-color: #3a6ea5;
+    box-shadow: 0px 0px 0px 0px #553a41;
+    transition: 0.2s;
+    cursor: pointer;
 }
 #discount{
     box-shadow: 0px 7px 12px 2px #bb7e8cbe;
@@ -62,27 +71,42 @@ header > div{
     margin: 10px;
     border-radius: 25px;
     width: max-content;
+    transition: 0.2s;
+}
+.items:hover{
+    border: solid #3a6ea5 2px;
+    box-shadow: 0px 7px 12px 2px #3a6ea5be;
+    transition: 0.2s;
+    cursor: pointer;
 }
 .products{
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
 }
 
 .products > div {
     display: flex;
     flex-direction: column;
-    gap: 2px;
 }
-
-.price{
-    height: 48px;
+.name{
+    margin: 0px;
+    margin-bottom: 5px;
     display: flex;
-    gap: 2px;
-    align-items: center;
+    justify-content: center;
+}
+.price{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: max-content;
+}
+.price > h2, h3{
+    margin: 0px;
 }
 #discount > h2{
     margin-left: 30px;
 }
+
 #new{
     box-shadow: 0px 7px 12px 2px #bb7e8cbe;
     display: flex;
@@ -120,11 +144,17 @@ h1, h2, h3{
 }
 .price > h3{
     color: #3a6ea562;
-    text-decoration: line-through 2px #553a41;
+    text-decoration: line-through 2px #553a4182;
 }
-img{
+.img{
     border-radius: 23px;
-    margin: 0px;
+    margin: 10px;
+    width: 200px;
+    height: 210px;
+}
+.img1{
+    border-radius: 23px;
+    margin: 10px;
     width: 200px;
     height: 230px;
 }
