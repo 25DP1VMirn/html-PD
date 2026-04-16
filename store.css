@@ -86,6 +86,63 @@ input{
     transition: 0.2s;
 
 }
+#four, #eight, #twelve, #sixteen{
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    
+    border: solid #bb7e8c 2px;
+    margin: 10px;
+    border-radius: 25px;
+    width: max-content;
+    transition: 0.2s;
+}
+.items:hover{
+    border: solid #3a6ea5 2px;
+    box-shadow: 0px 7px 12px 2px #3a6ea5be;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.products{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.products > div {
+    display: flex;
+    flex-direction: column;
+}
+.price > h2, h3{
+    margin: 0px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    margin-bottom: 10px;
+}
+.price > h3{
+    color: #553a4162;
+    text-decoration: line-through #3a6ea5b7;
+}
+.price > h2{
+    color: #3a6ea5;
+}
+.name{
+    margin: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-radius: 23px;
+    margin: 10px;
+    width: 200px;
+    height: 210px;
+}
 footer{
     padding-left: 30px;
     padding-right: 30px;
